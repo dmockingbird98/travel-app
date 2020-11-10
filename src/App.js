@@ -1,7 +1,9 @@
-
+import React from "react";
+import Main from "./app/main/main";
+import "./assets/scss/style.scss";
 function App() {
   return (
-    <h1>zxczx</h1>
+    <Main />    
   );
 }
 
