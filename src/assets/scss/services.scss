@@ -1,0 +1,21 @@
+.line{
+    box-sizing: border-box;
+    outline: none;
+    .greyLine{
+        display: inline-block;
+        width: 20%;
+        height: 1px;
+        border-top: 1px solid transparent;
+        background-color: #e4e4e4;
+        box-sizing: border-box;
+        outline: none;
+        .greenLine{
+            display: block;
+            width: 25%;
+            margin: -2px auto 0;
+            border-bottom: 3px solid #37b721;
+            box-sizing: border-box;
+            outline: none;
+        }
+    }
+}
