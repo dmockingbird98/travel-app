@@ -11,17 +11,17 @@ export default function Contacts() {
 
         <div className="row">
             <div className="col-4">
-                <div><span class="icon-location"></span></div>
+                <div><span className="icon-location"></span></div>
                 <h4>Address</h4>
                 <p>6834 Hollywood Blvd - Los Angeles CA</p>
             </div>
             <div className="col-4">
-                <div><span class="icon-phone"></span></div>
+                <div><span className="icon-phone"></span></div>
                 <h4>Phone</h4>
                 <p>+1234 567 890</p>
             </div>
             <div className="col-4">
-                <div><span class="icon-envelope-o"></span></div>
+                <div><span className="icon-envelope-o"></span></div>
                 <h4>E-mail</h4>
                 <p>testmail@demo.com</p>
             </div>
