@@ -19,12 +19,12 @@ export default function Main() {
         <Header />
         <Home />
         <Services />
-        {/* <Packages /> */}
-        {/* <Assurance /> */}
-        {/* <Media /> */}
+        <Packages />
+        <Assurance />
+        <Media />
         {/* <Places /> */}
         {/* <Subscribe /> */}
-        {/* <Contacts /> */}
+        <Contacts />
         <Partners />
         <AboutUs />
         <Map />

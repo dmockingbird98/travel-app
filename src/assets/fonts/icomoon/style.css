@@ -1,15 +1,10 @@
-@font-face{
-  font-family: 'Muli';
-  src: url('../fonts/Mulish-Regular.ttf');
-}
-
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?49yeg9');
-  src:  url('../fonts/icomoon.eot?49yeg9#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?49yeg9') format('truetype'),
-    url('../fonts/icomoon.woff?49yeg9') format('woff'),
-    url('../fonts/icomoon.svg?49yeg9#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?o25irp');
+  src:  url('fonts/icomoon.eot?o25irp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?o25irp') format('truetype'),
+    url('fonts/icomoon.woff?o25irp') format('woff'),
+    url('fonts/icomoon.svg?o25irp#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -18,7 +13,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  // speak: never;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
