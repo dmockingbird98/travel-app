@@ -1,9 +1,9 @@
 import React from 'react';
-import expedia from '../../assets/images/partners/expedia.png';
-import tripadvisor from '../../assets/images/partners/tripadvisor.png';
+import expedia from '../../assets/images/partners/expedia.jpg';
+import tripadvisor from '../../assets/images/partners/trip.jpg';
 export default function Partners() {
     return <section className="partners">
-        <div>
+        <div className="partners-wrapper">
             <h2>Out Trusted Partners</h2>
 
             <div className="line">
@@ -12,13 +12,13 @@ export default function Partners() {
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col-6">
-                    <img src={expedia} alt="expedia" width="60px" />
-                </div>
-                <div className="col-6">
-                    <img src={tripadvisor} alt="trip" width="60px" />
-                </div>
+            <div className="parts">
+                <a href="https://mobirise.com/">
+                    <img src={expedia} alt="expedia" width="100%" />
+                </a>
+                <a href="https://mobirise.com/">
+                    <img src={tripadvisor} alt="trip" width="100%" />
+                </a>
             </div>
         </div>
     </section>

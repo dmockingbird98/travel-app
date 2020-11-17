@@ -1,0 +1,66 @@
+.aboutUs{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #f1f1f7;
+    .about-container{
+        padding:0 1rem;
+        margin:0 auto;
+        @media only screen and (max-width: 767px) {
+            max-width:540px;
+        }
+        @media only screen and (min-width: 768px) {
+            max-width:720px;
+
+        }
+        @media only screen and (min-width: 992px) {
+            max-width: 960px;
+        }
+        @media only screen and (min-width: 1200px) {
+            max-width: 1140px;
+        }
+        .about-wrapper{
+            width:100%;
+            .item{
+                padding:0 1rem;
+                h4{
+                    font-family: 'Muli';
+                    font-size: 1rem;
+                    line-height: 1.4;
+                    padding-bottom: 1.5rem;
+                    font-weight: 700;
+                    color: #37b721;
+                    margin:0;
+                    text-align: left;
+                    @media only screen and (max-width: 768px){
+                        text-align: center;
+                        font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+                        line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));          
+                    }
+                }
+                p{
+                    font-family: 'Muli';
+                    font-size: 1rem;
+                    line-height: 1.4;
+                    font-weight: 300;
+                    margin-top: 0;
+                    letter-spacing: 0.5px;
+                    @media only screen and (max-width: 768px){
+                        text-align:center;
+                        font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+                        line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));            
+                    }
+                }
+                .content{
+                    padding-bottom:1.5rem;
+                    width:100%;
+                    img{
+                        margin-right:10px;
+                    }
+                    .text-content{
+                        width: calc( 100% - 80px )
+                    }
+                }
+            }
+        }
+    }
+}
