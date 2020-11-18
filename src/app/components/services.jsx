@@ -14,7 +14,7 @@ export default function Services() {
             <div className="row service-content m-0">
                 <div className="col-sm-12 col-md-4 content">
                     <div className="item">
-                        <div className="icon"><span class="icon-star"></span></div>
+                        <div className="icon"><span className="icon-star"></span></div>
                         <h4>Hotels</h4>
                         <div className="greyLine">
                             <div className="greenLine"></div>

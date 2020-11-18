@@ -44,25 +44,6 @@
                     padding-top: 1rem;
                     padding-bottom: 1rem;
                     .card{
-                        width:fit-content;
-                        .card-img-top{
-                            @media only screen and (max-width: 767px) {
-                                width: calc( 100vw - 4rem);
-                                height: calc( 100vw - 4rem);
-                            }
-                            @media only screen and (min-width: 768px) {
-                                width: 326px;
-                                height: 245px;
-                            }
-                            @media only screen and (min-width: 992px) {
-                                width:286px;
-                                height:214px;
-                            }
-                            @media only screen and (min-width: 1200px) {
-                                width:350px;
-                                height:260px;
-                            }
-                        }
                         .card-body{
                             padding:1.5rem 2rem;
                             @media only screen and (max-width: 767px) {

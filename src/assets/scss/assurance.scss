@@ -1,0 +1,110 @@
+.assurance{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f1f1f7;
+    .assurance-wrapper{
+        margin:0 auto;
+        padding:0 1rem;
+        @media only screen and (max-width: 767px) {
+            max-width:540px;
+        }
+        @media only screen and (min-width: 768px) {
+            max-width:720px;
+
+        }
+        @media only screen and (min-width: 992px) {
+            max-width: 960px;
+        }
+        @media only screen and (min-width: 1200px) {
+            max-width: 1140px;
+        }
+        .left{
+            padding:0 1rem 1.5rem 1rem;
+            img{
+                width: 100%;
+                height: 550px;
+                -webkit-border-radius: 8px;
+                border-radius: 8px;
+                @media only screen and (max-width: 767px){
+                    height: 300px;                   
+                }
+            }
+        }
+        .right{
+            padding: 0 2rem;
+            @media only screen and (max-width: 768px){
+                padding: 0 1rem;
+            }
+            h2{
+                padding-bottom:1rem;
+                margin:0;
+                font-family: 'Muli',sans-serif;
+                font-size: 2.45rem;
+                line-height: 1.2;
+                font-weight: 700;
+                @media only screen and (max-width: 768px){
+                    font-size: calc( 1.5075rem + (2.45 - 1.5075) * ((100vw - 20rem) / (48 - 20)));
+                    line-height: calc( 1.4 * (1.5075rem + (2.45 - 1.5075) * ((100vw - 20rem) / (48 - 20))));                  
+                }    
+            }
+            h4{
+                color:#37b721;
+                padding-bottom:1.5rem;
+                font-weight: 300;
+                text-align:left;
+                font-family: 'Muli',sans-serif;
+                font-size: 1.3rem;
+                line-height: 1.6;
+                margin:0;
+                @media only screen and (max-width: 768px){
+                    text-align:center;
+                    font-size: calc( 1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20)));
+                    line-height: calc( 1.4 * (1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20))));                   
+                }    
+            }
+            .accordion{
+                margin-bottom:10px;
+                .card{
+                    border:none;
+                    .card-header{
+                        display:flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                        border: 1px solid #ededed;
+                        background-color: #FFF;
+                        h3{
+                            font-family: 'Muli',sans-serif;
+                            font-size: 1rem;
+                            line-height: 1.4;
+                            // line-height: 65px;
+                            padding: 5px 30px;
+                            color: #717177;
+                            font-weight:700;
+                            white-space: nowrap;
+                            @media only screen and (max-width: 768px){
+                                font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+                                line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));            
+                            }   
+                        }
+                    }
+                    .card-body{
+                        border: 1px solid #ededed;
+                        padding: 30px;
+                        color: #9096a4;
+                        font-family: 'Muli',sans-serif;
+                        font-size: 1rem;
+                        line-height: 1.4;
+                        font-weight:300;
+                        letter-spacing: 0.5px;
+                        background-color: #f1f1f7;
+                        @media only screen and (max-width: 768px){
+                            font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+                            line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));          
+                        }  
+                    }
+                }
+            }
+        }
+    }
+}

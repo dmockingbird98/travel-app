@@ -22,8 +22,8 @@ export default function Main() {
         <Packages />
         <Assurance />
         <Media />
-        {/* <Places /> */}
-        {/* <Subscribe /> */}
+        <Places />
+        <Subscribe />
         <Contacts />
         <Partners />
         <AboutUs />
