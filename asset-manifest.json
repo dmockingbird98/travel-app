@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/travel-app/static/css/main.c7f15a60.chunk.css",
+    "main.js": "/travel-app/static/js/main.42868e3f.chunk.js",
+    "main.js.map": "/travel-app/static/js/main.42868e3f.chunk.js.map",
+    "runtime-main.js": "/travel-app/static/js/runtime-main.209c8989.js",
+    "runtime-main.js.map": "/travel-app/static/js/runtime-main.209c8989.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/travel-app/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.80606718.chunk.js": "/travel-app/static/js/2.80606718.chunk.js",
+    "static/js/2.80606718.chunk.js.map": "/travel-app/static/js/2.80606718.chunk.js.map",
+    "static/js/3.927a9e42.chunk.js": "/travel-app/static/js/3.927a9e42.chunk.js",
+    "static/js/3.927a9e42.chunk.js.map": "/travel-app/static/js/3.927a9e42.chunk.js.map",
+    "index.html": "/travel-app/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/travel-app/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.c7f15a60.chunk.css.map": "/travel-app/static/css/main.c7f15a60.chunk.css.map",
+    "static/js/2.80606718.chunk.js.LICENSE.txt": "/travel-app/static/js/2.80606718.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/travel-app/static/media/paris.6ad87995.jpg",
+    "static/media/UAE.5ce38004.jpg": "/travel-app/static/media/UAE.5ce38004.jpg",
+    "static/media/china-news.5bedbba8.jpg": "/travel-app/static/media/china-news.5bedbba8.jpg",
+    "static/media/dominicRepublic.e2ca42ae.jpg": "/travel-app/static/media/dominicRepublic.e2ca42ae.jpg",
+    "static/media/england.1be6d925.jpg": "/travel-app/static/media/england.1be6d925.jpg",
+    "static/media/expedia.2eed005d.jpg": "/travel-app/static/media/expedia.2eed005d.jpg",
+    "static/media/indonesia.4ae369c5.jpg": "/travel-app/static/media/indonesia.4ae369c5.jpg",
+    "static/media/italy.1611402c.jpg": "/travel-app/static/media/italy.1611402c.jpg",
+    "static/media/lagoon.aa92e067.jpg": "/travel-app/static/media/lagoon.aa92e067.jpg",
+    "static/media/maldives.3b577091.jpg": "/travel-app/static/media/maldives.3b577091.jpg",
+    "static/media/surfing-news.283ee45e.jpg": "/travel-app/static/media/surfing-news.283ee45e.jpg",
+    "static/media/trip.1e2fd11d.jpg": "/travel-app/static/media/trip.1e2fd11d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c8989.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.80606718.chunk.js",
+    "static/css/main.c7f15a60.chunk.css",
+    "static/js/main.42868e3f.chunk.js"
+  ]
+}
